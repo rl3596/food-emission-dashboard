@@ -1,0 +1,32 @@
+{
+  "2023": {
+    "total_kg_procured": 2470458.53,
+    "metric2_supply_chain_tCO2e": 11550.26,
+    "metric4_carbon_opp_tCO2e": 43655.84,
+    "total_carbon_tCO2e": 55206.1,
+    "total_kcal_millions": 5178.8,
+    "per_1000kcal_kgCO2e": 10.66,
+    "per_kg_food_kgCO2e": 22.35,
+    "pct_change_from_baseline": 0.0
+  },
+  "2024": {
+    "total_kg_procured": 2497684.85,
+    "metric2_supply_chain_tCO2e": 11470.12,
+    "metric4_carbon_opp_tCO2e": 43141.89,
+    "total_carbon_tCO2e": 54612.01,
+    "total_kcal_millions": 5207.9,
+    "per_1000kcal_kgCO2e": 10.49,
+    "per_kg_food_kgCO2e": 21.86,
+    "pct_change_from_baseline": -0.0108
+  },
+  "2025": {
+    "total_kg_procured": 2556987.18,
+    "metric2_supply_chain_tCO2e": 12019.35,
+    "metric4_carbon_opp_tCO2e": 44433.94,
+    "total_carbon_tCO2e": 56453.29,
+    "total_kcal_millions": 5421.2,
+    "per_1000kcal_kgCO2e": 10.42,
+    "per_kg_food_kgCO2e": 22.08,
+    "pct_change_from_baseline": 0.0226
+  }
+}

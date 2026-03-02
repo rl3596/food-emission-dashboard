@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+
+# Large raw Excel data files (upload via the app instead)
+data/raw/*.xlsx
+
+# Reference documents (too large for git)
+docs/*.pdf
+docs/*.docx
+docs/*.xlsx
+
+# Original source files (kept locally, not in repo)
+*.copy.xlsx
+*.copy.pdf
+*.copy.ipynb
+*.copy.docx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude Code
+.claude/

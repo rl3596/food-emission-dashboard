@@ -1,0 +1,401 @@
+{
+  "Beef & buffalo meat": {
+    "supply_chain_kgCO2e_per_kg": 41.34628634,
+    "land_use_m2_per_kg": 126.4474895808,
+    "carbon_opp_cost_kgCO2e_per_kg": 201.6471590313,
+    "kcal_per_kg": 1010.6016009315,
+    "fbs_to_retail": 0.7137024641
+  },
+  "Lamb/mutton & goat meat": {
+    "supply_chain_kgCO2e_per_kg": 41.6211194661,
+    "land_use_m2_per_kg": 143.2,
+    "carbon_opp_cost_kgCO2e_per_kg": 262.0268377746,
+    "kcal_per_kg": 2537.9449317347,
+    "fbs_to_retail": 0.7086524478
+  },
+  "Pork (pig meat)": {
+    "supply_chain_kgCO2e_per_kg": 9.8315028535,
+    "land_use_m2_per_kg": 21.0194961493,
+    "carbon_opp_cost_kgCO2e_per_kg": 21.0973588914,
+    "kcal_per_kg": 1609.897912008,
+    "fbs_to_retail": 0.6796122509
+  },
+  "Poultry (chicken, turkey)": {
+    "supply_chain_kgCO2e_per_kg": 4.3996097862,
+    "land_use_m2_per_kg": 11.5095966469,
+    "carbon_opp_cost_kgCO2e_per_kg": 14.7042495773,
+    "kcal_per_kg": 1432.9353943208,
+    "fbs_to_retail": 0.726745339
+  },
+  "Butter": {
+    "supply_chain_kgCO2e_per_kg": 11.1443480933,
+    "land_use_m2_per_kg": 13.9518543499,
+    "carbon_opp_cost_kgCO2e_per_kg": 42.127122803,
+    "kcal_per_kg": 7170,
+    "fbs_to_retail": 1
+  },
+  "Cheese": {
+    "supply_chain_kgCO2e_per_kg": 8.6949636619,
+    "land_use_m2_per_kg": 10.4638907624,
+    "carbon_opp_cost_kgCO2e_per_kg": 31.5953421023,
+    "kcal_per_kg": 3710,
+    "fbs_to_retail": 1
+  },
+  "Ice cream": {
+    "supply_chain_kgCO2e_per_kg": 3.9402762363,
+    "land_use_m2_per_kg": 3.6931379162,
+    "carbon_opp_cost_kgCO2e_per_kg": 11.1512972126,
+    "kcal_per_kg": 2070,
+    "fbs_to_retail": 1
+  },
+  "Cream": {
+    "supply_chain_kgCO2e_per_kg": 6.8219049791,
+    "land_use_m2_per_kg": 7.7966244897,
+    "carbon_opp_cost_kgCO2e_per_kg": 23.5416274487,
+    "kcal_per_kg": 1910,
+    "fbs_to_retail": 1
+  },
+  "Milk (cow's milk)": {
+    "supply_chain_kgCO2e_per_kg": 2.1674658793,
+    "land_use_m2_per_kg": 2.0517432868,
+    "carbon_opp_cost_kgCO2e_per_kg": 6.1951651181,
+    "kcal_per_kg": 526.6348357063,
+    "fbs_to_retail": 1
+  },
+  "Yogurt": {
+    "supply_chain_kgCO2e_per_kg": 2.9317061764,
+    "land_use_m2_per_kg": 2.2569176154,
+    "carbon_opp_cost_kgCO2e_per_kg": 6.8146816299,
+    "kcal_per_kg": 610,
+    "fbs_to_retail": 1
+  },
+  "Eggs": {
+    "supply_chain_kgCO2e_per_kg": 3.6614573654,
+    "land_use_m2_per_kg": 6.840131419,
+    "carbon_opp_cost_kgCO2e_per_kg": 10.6620129958,
+    "kcal_per_kg": 1382.0449449667,
+    "fbs_to_retail": 1
+  },
+  "Fish (finfish)": {
+    "supply_chain_kgCO2e_per_kg": 4.9797838363,
+    "land_use_m2_per_kg": 6.9,
+    "carbon_opp_cost_kgCO2e_per_kg": 14.8050334779,
+    "kcal_per_kg": 763.1163708087,
+    "fbs_to_retail": 0.4966774218
+  },
+  "Crustaceans (shrimp/prawns)": {
+    "supply_chain_kgCO2e_per_kg": 21.1274250115,
+    "land_use_m2_per_kg": 2.970368229,
+    "carbon_opp_cost_kgCO2e_per_kg": 4.2563148429,
+    "kcal_per_kg": 415.7155167513,
+    "fbs_to_retail": 0.6103323338
+  },
+  "Mollusks": {
+    "supply_chain_kgCO2e_per_kg": 2.4351498395,
+    "land_use_m2_per_kg": 0,
+    "carbon_opp_cost_kgCO2e_per_kg": 0,
+    "kcal_per_kg": 105.19,
+    "fbs_to_retail": 0.4966774218
+  },
+  "Animal fats": {
+    "supply_chain_kgCO2e_per_kg": 6.9692686841,
+    "land_use_m2_per_kg": 14.9532231846,
+    "carbon_opp_cost_kgCO2e_per_kg": 18.6468041948,
+    "kcal_per_kg": 6856.962629272,
+    "fbs_to_retail": 0.7013264817
+  },
+  "Legumes": {
+    "supply_chain_kgCO2e_per_kg": 1.6041675978,
+    "land_use_m2_per_kg": 9.6111814843,
+    "carbon_opp_cost_kgCO2e_per_kg": 6.3038793523,
+    "kcal_per_kg": 4645.7682464988,
+    "fbs_to_retail": 0.9896201854
+  },
+  "Beans and pulses (dried)": {
+    "supply_chain_kgCO2e_per_kg": 1.6776349215,
+    "land_use_m2_per_kg": 12.9518898807,
+    "carbon_opp_cost_kgCO2e_per_kg": 10.0287147881,
+    "kcal_per_kg": 3462.8198420946,
+    "fbs_to_retail": 1
+  },
+  "Peas": {
+    "supply_chain_kgCO2e_per_kg": 0.6994614155,
+    "land_use_m2_per_kg": 6.9086831386,
+    "carbon_opp_cost_kgCO2e_per_kg": 8.0889829119,
+    "kcal_per_kg": 3269.6197762708,
+    "fbs_to_retail": 1
+  },
+  "Peanuts/groundnuts": {
+    "supply_chain_kgCO2e_per_kg": 1.6920137256,
+    "land_use_m2_per_kg": 7.2800905756,
+    "carbon_opp_cost_kgCO2e_per_kg": 6.7193398144,
+    "kcal_per_kg": 6055.4355293829,
+    "fbs_to_retail": 0.887755102
+  },
+  "Soybeans/Tofu": {
+    "supply_chain_kgCO2e_per_kg": 1.7542301289,
+    "land_use_m2_per_kg": 4.1355928639,
+    "carbon_opp_cost_kgCO2e_per_kg": 5.8533063196,
+    "kcal_per_kg": 2237.0231394622,
+    "fbs_to_retail": 1
+  },
+  "Grains/cereals (except rice)": {
+    "supply_chain_kgCO2e_per_kg": 1.478544593,
+    "land_use_m2_per_kg": 4.5392030025,
+    "carbon_opp_cost_kgCO2e_per_kg": 2.4577797812,
+    "kcal_per_kg": 2812.5289923721,
+    "fbs_to_retail": 0.8224611475
+  },
+  "Corn (Maize)": {
+    "supply_chain_kgCO2e_per_kg": 0.9733585302,
+    "land_use_m2_per_kg": 1.7429013421,
+    "carbon_opp_cost_kgCO2e_per_kg": 3.1775319265,
+    "kcal_per_kg": 2659.059650747,
+    "fbs_to_retail": 0.6647718283
+  },
+  "Oats (Oatmeal)": {
+    "supply_chain_kgCO2e_per_kg": 2.3016572068,
+    "land_use_m2_per_kg": 6.9382323583,
+    "carbon_opp_cost_kgCO2e_per_kg": 3.5473823355,
+    "kcal_per_kg": 1747.0528128793,
+    "fbs_to_retail": 0.7329348105
+  },
+  "Wheat/Rye (Bread, pasta, baked goods)": {
+    "supply_chain_kgCO2e_per_kg": 1.5224588041,
+    "land_use_m2_per_kg": 4.8857030315,
+    "carbon_opp_cost_kgCO2e_per_kg": 1.8329182259,
+    "kcal_per_kg": 2888.4673674467,
+    "fbs_to_retail": 1.0352469077
+  },
+  "Rice": {
+    "supply_chain_kgCO2e_per_kg": 2.5344621912,
+    "land_use_m2_per_kg": 2.1650157695,
+    "carbon_opp_cost_kgCO2e_per_kg": 2.6087764013,
+    "kcal_per_kg": 3848.1401696465,
+    "fbs_to_retail": 1
+  },
+  "Tree nuts and seeds": {
+    "supply_chain_kgCO2e_per_kg": 4.285397861,
+    "land_use_m2_per_kg": 6.9172591633,
+    "carbon_opp_cost_kgCO2e_per_kg": 6.2320874543,
+    "kcal_per_kg": 2608.5134345794,
+    "fbs_to_retail": 0.6899774805
+  },
+  "Almond milk": {
+    "supply_chain_kgCO2e_per_kg": 0.6944949047,
+    "land_use_m2_per_kg": 0.4963593291,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.6793136834,
+    "kcal_per_kg": 330,
+    "fbs_to_retail": 1
+  },
+  "Oat milk": {
+    "supply_chain_kgCO2e_per_kg": 0.8925147067,
+    "land_use_m2_per_kg": 0.7737011021,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.2598509193,
+    "kcal_per_kg": 460,
+    "fbs_to_retail": 1
+  },
+  "Rice milk": {
+    "supply_chain_kgCO2e_per_kg": 1.1697424295,
+    "land_use_m2_per_kg": 0.2595973839,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.3128610579,
+    "kcal_per_kg": 470,
+    "fbs_to_retail": 1
+  },
+  "Soy milk": {
+    "supply_chain_kgCO2e_per_kg": 0.4841709598,
+    "land_use_m2_per_kg": 0.7783537703,
+    "carbon_opp_cost_kgCO2e_per_kg": 1.0987764475,
+    "kcal_per_kg": 330,
+    "fbs_to_retail": 1
+  },
+  "Fruits": {
+    "supply_chain_kgCO2e_per_kg": 0.4305684433,
+    "land_use_m2_per_kg": 0.7129448824,
+    "carbon_opp_cost_kgCO2e_per_kg": 1.0329656749,
+    "kcal_per_kg": 299.0497077829,
+    "fbs_to_retail": 1
+  },
+  "Apples": {
+    "supply_chain_kgCO2e_per_kg": 0.3581085985,
+    "land_use_m2_per_kg": 0.612281567,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.9354386952,
+    "kcal_per_kg": 320.6708081977,
+    "fbs_to_retail": 1
+  },
+  "Bananas": {
+    "supply_chain_kgCO2e_per_kg": 0.7114808902,
+    "land_use_m2_per_kg": 1.9294886335,
+    "carbon_opp_cost_kgCO2e_per_kg": 1.142674749,
+    "kcal_per_kg": 601.5832975103,
+    "fbs_to_retail": 1
+  },
+  "Berries": {
+    "supply_chain_kgCO2e_per_kg": 1.6547296222,
+    "land_use_m2_per_kg": 0.7043608816,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.9354386952,
+    "kcal_per_kg": 299,
+    "fbs_to_retail": 1
+  },
+  "Citrus Fruit": {
+    "supply_chain_kgCO2e_per_kg": 0.3941803417,
+    "land_use_m2_per_kg": 0.4175557257,
+    "carbon_opp_cost_kgCO2e_per_kg": 1.0021886253,
+    "kcal_per_kg": 192.4100026436,
+    "fbs_to_retail": 1
+  },
+  "Vegetables": {
+    "supply_chain_kgCO2e_per_kg": 0.5468911918,
+    "land_use_m2_per_kg": 0.8087152582,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.7069765984,
+    "kcal_per_kg": 225.2203184166,
+    "fbs_to_retail": 1
+  },
+  "Cabbages and other Brassicas (Broccoli)": {
+    "supply_chain_kgCO2e_per_kg": 0.6220052134,
+    "land_use_m2_per_kg": 2.304503903,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.7069765984,
+    "kcal_per_kg": 225,
+    "fbs_to_retail": 1
+  },
+  "Tomatoes": {
+    "supply_chain_kgCO2e_per_kg": 0.6932107027,
+    "land_use_m2_per_kg": 0.164419938,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.7069765984,
+    "kcal_per_kg": 174.2057519969,
+    "fbs_to_retail": 1
+  },
+  "Root Vegetables": {
+    "supply_chain_kgCO2e_per_kg": 0.3062007759,
+    "land_use_m2_per_kg": 0.3162611271,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.7069765984,
+    "kcal_per_kg": 225.2203184166,
+    "fbs_to_retail": 1
+  },
+  "Onions and Leeks": {
+    "supply_chain_kgCO2e_per_kg": 0.3015364403,
+    "land_use_m2_per_kg": 0.5301411257,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.7069765984,
+    "kcal_per_kg": 321.0923552694,
+    "fbs_to_retail": 1
+  },
+  "Other vegetables": {
+    "supply_chain_kgCO2e_per_kg": 0.5028634881,
+    "land_use_m2_per_kg": 1.1943280723,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.7069765984,
+    "kcal_per_kg": 236.3629618648,
+    "fbs_to_retail": 1
+  },
+  "Roots and Tubers": {
+    "supply_chain_kgCO2e_per_kg": 0.3969549228,
+    "land_use_m2_per_kg": 0.5195204731,
+    "carbon_opp_cost_kgCO2e_per_kg": 1.1182441263,
+    "kcal_per_kg": 586.1438594521,
+    "fbs_to_retail": 1
+  },
+  "Potatoes": {
+    "supply_chain_kgCO2e_per_kg": 0.3969549228,
+    "land_use_m2_per_kg": 0.5195204731,
+    "carbon_opp_cost_kgCO2e_per_kg": 0.6245853121,
+    "kcal_per_kg": 586.1438594521,
+    "fbs_to_retail": 1
+  },
+  "Cassava and Other Roots": {
+    "supply_chain_kgCO2e_per_kg": 0.3969549228,
+    "land_use_m2_per_kg": 0.5195204731,
+    "carbon_opp_cost_kgCO2e_per_kg": 1.6657583259,
+    "kcal_per_kg": 586.1438594521,
+    "fbs_to_retail": 1
+  },
+  "Sugars and sweeteners": {
+    "supply_chain_kgCO2e_per_kg": 1.6413691421,
+    "land_use_m2_per_kg": 2.3931694386,
+    "carbon_opp_cost_kgCO2e_per_kg": 1.7436,
+    "kcal_per_kg": 3686.5230170633,
+    "fbs_to_retail": 1
+  },
+  "Vegetable oils": {
+    "supply_chain_kgCO2e_per_kg": 3.4511206521,
+    "land_use_m2_per_kg": 13.1391680018,
+    "carbon_opp_cost_kgCO2e_per_kg": 9.076990866,
+    "kcal_per_kg": 8232.2125471061,
+    "fbs_to_retail": 1.0995789351
+  },
+  "Soybeans (Oil)": {
+    "supply_chain_kgCO2e_per_kg": 3.2619252397,
+    "land_use_m2_per_kg": 12.1811584555,
+    "carbon_opp_cost_kgCO2e_per_kg": 9.9778361677,
+    "kcal_per_kg": 8157.2995821225,
+    "fbs_to_retail": 1.079911172
+  },
+  "Palm (Oil)": {
+    "supply_chain_kgCO2e_per_kg": 4.7733890266,
+    "land_use_m2_per_kg": 2.4192300659,
+    "carbon_opp_cost_kgCO2e_per_kg": 8.2586862617,
+    "kcal_per_kg": 8859.22,
+    "fbs_to_retail": 1.1235955056
+  },
+  "Sunflower (Oil)": {
+    "supply_chain_kgCO2e_per_kg": 3.2860094895,
+    "land_use_m2_per_kg": 13.5736191597,
+    "carbon_opp_cost_kgCO2e_per_kg": 6.88810115,
+    "kcal_per_kg": 8457.7838273846,
+    "fbs_to_retail": 1.0869565217
+  },
+  "Rapeseed/canola (Oil)": {
+    "supply_chain_kgCO2e_per_kg": 3.5218764166,
+    "land_use_m2_per_kg": 15.8254508022,
+    "carbon_opp_cost_kgCO2e_per_kg": 8.189290772,
+    "kcal_per_kg": 8547.0491658053,
+    "fbs_to_retail": 1.0869565217
+  },
+  "Olives (Oil)": {
+    "supply_chain_kgCO2e_per_kg": 6.55615139,
+    "land_use_m2_per_kg": 26.7054916422,
+    "carbon_opp_cost_kgCO2e_per_kg": 3.6089726576,
+    "kcal_per_kg": 8730.6417839565,
+    "fbs_to_retail": 1.1637660904
+  },
+  "Barley (Beer)": {
+    "supply_chain_kgCO2e_per_kg": 0.9535054266,
+    "land_use_m2_per_kg": 1.3026127678,
+    "carbon_opp_cost_kgCO2e_per_kg": 5.4002877579,
+    "kcal_per_kg": 418.0234295477,
+    "fbs_to_retail": 1
+  },
+  "Wine Grapes (Wine)": {
+    "supply_chain_kgCO2e_per_kg": 1.3914789043,
+    "land_use_m2_per_kg": 1.3341259161,
+    "carbon_opp_cost_kgCO2e_per_kg": 8.6489364854,
+    "kcal_per_kg": 672.31376639,
+    "fbs_to_retail": 1
+  },
+  "Stimulants": {
+    "supply_chain_kgCO2e_per_kg": 13.6965991114,
+    "land_use_m2_per_kg": 38.3540561384,
+    "carbon_opp_cost_kgCO2e_per_kg": 53.4643309368,
+    "kcal_per_kg": 1361.4408898143,
+    "fbs_to_retail": 0.7312476663
+  },
+  "Cocoa": {
+    "supply_chain_kgCO2e_per_kg": 10.4559669544,
+    "land_use_m2_per_kg": 68.9594804365,
+    "carbon_opp_cost_kgCO2e_per_kg": 72.4104127443,
+    "kcal_per_kg": 2081.388225647,
+    "fbs_to_retail": 0.5574292281
+  },
+  "Coffee": {
+    "supply_chain_kgCO2e_per_kg": 16.6995210669,
+    "land_use_m2_per_kg": 21.6173632016,
+    "carbon_opp_cost_kgCO2e_per_kg": 37.9049796074,
+    "kcal_per_kg": 452.3579803707,
+    "fbs_to_retail": 0.8212235457
+  },
+  "Stimulants & Spices Misc.": {
+    "supply_chain_kgCO2e_per_kg": 9.3702751347,
+    "land_use_m2_per_kg": 30.9962585633,
+    "carbon_opp_cost_kgCO2e_per_kg": 56.2930034208,
+    "kcal_per_kg": 3203.1363718249,
+    "fbs_to_retail": 0.7928842579
+  }
+}
