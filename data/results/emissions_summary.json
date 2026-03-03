@@ -1,32 +1,35 @@
 {
   "2023": {
-    "total_kg_procured": 2470458.53,
-    "metric2_supply_chain_tCO2e": 11550.26,
-    "metric4_carbon_opp_tCO2e": 43655.84,
-    "total_carbon_tCO2e": 55206.1,
-    "total_kcal_millions": 5178.8,
-    "per_1000kcal_kgCO2e": 10.66,
-    "per_kg_food_kgCO2e": 22.35,
+    "total_kg_procured": 2343836.241536328,
+    "metric2_supply_chain_tCO2e": 11843.533373913757,
+    "metric3_land_use_ha": 3180.5238671313136,
+    "metric4_carbon_opp_tCO2e": 44643.072647514375,
+    "total_carbon_tCO2e": 56486.60602142813,
+    "total_kcal_millions": 4866.876296955775,
+    "per_1000kcal_kgCO2e": 11.606336914040826,
+    "per_kg_food_kgCO2e": 24.100065107109412,
     "pct_change_from_baseline": 0.0
   },
   "2024": {
-    "total_kg_procured": 2497684.85,
-    "metric2_supply_chain_tCO2e": 11470.12,
-    "metric4_carbon_opp_tCO2e": 43141.89,
-    "total_carbon_tCO2e": 54612.01,
-    "total_kcal_millions": 5207.9,
-    "per_1000kcal_kgCO2e": 10.49,
-    "per_kg_food_kgCO2e": 21.86,
-    "pct_change_from_baseline": -0.0108
+    "total_kg_procured": 2512155.821641523,
+    "metric2_supply_chain_tCO2e": 12513.452994822019,
+    "metric3_land_use_ha": 3321.9591545438375,
+    "metric4_carbon_opp_tCO2e": 46800.96187603934,
+    "total_carbon_tCO2e": 59314.414870861365,
+    "total_kcal_millions": 5095.779240718734,
+    "per_1000kcal_kgCO2e": 11.63991061404288,
+    "per_kg_food_kgCO2e": 23.610961692696048,
+    "pct_change_from_baseline": 0.05006158182632724
   },
   "2025": {
-    "total_kg_procured": 2556987.18,
-    "metric2_supply_chain_tCO2e": 12019.35,
-    "metric4_carbon_opp_tCO2e": 44433.94,
-    "total_carbon_tCO2e": 56453.29,
-    "total_kcal_millions": 5421.2,
-    "per_1000kcal_kgCO2e": 10.42,
-    "per_kg_food_kgCO2e": 22.08,
-    "pct_change_from_baseline": 0.0226
+    "total_kg_procured": 2541814.2372596883,
+    "metric2_supply_chain_tCO2e": 13023.626084211846,
+    "metric3_land_use_ha": 3430.086418633909,
+    "metric4_carbon_opp_tCO2e": 48306.91526619277,
+    "total_carbon_tCO2e": 61330.541350404616,
+    "total_kcal_millions": 5323.757152319075,
+    "per_1000kcal_kgCO2e": 11.520161343890093,
+    "per_kg_food_kgCO2e": 24.128648133045562,
+    "pct_change_from_baseline": 0.08575369756042596
   }
 }
