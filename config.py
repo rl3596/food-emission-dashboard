@@ -7,6 +7,8 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 RAW_DIR = os.path.join(DATA_DIR, "raw")
 PROCESSED_DIR = os.path.join(DATA_DIR, "processed")
 RESULTS_DIR = os.path.join(DATA_DIR, "results")
+STAGING_DIR = os.path.join(DATA_DIR, "staging")
+COMMITTED_DIR = os.path.join(DATA_DIR, "committed")
 MEALS_DIR = os.path.join(DATA_DIR, "meals")
 EMISSION_FACTORS_PATH = os.path.join(DATA_DIR, "emission_factors.json")
 

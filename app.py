@@ -35,6 +35,7 @@ navbar = dbc.Navbar(
                         dbc.NavItem(dbc.NavLink("Dashboard", href="/dashboard")),
                         dbc.NavItem(dbc.NavLink("Demographics", href="/demographics")),
                         dbc.NavItem(dbc.NavLink("Upload Data", href="/upload")),
+                        dbc.NavItem(dbc.NavLink("Data Management", href="/data-management")),
                     ],
                     navbar=True,
                 ),
