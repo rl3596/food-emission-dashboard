@@ -143,6 +143,12 @@ def layout():
                                 "fa-upload",
                                 "/upload",
                             ),
+                            _make_nav_card(
+                                "Data Management",
+                                "View upload history, manage committed data, and remove records.",
+                                "fa-cogs",
+                                "/data-management",
+                            ),
                         ]
                     ),
                 ],

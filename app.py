@@ -35,6 +35,7 @@ navbar = dbc.Navbar(
                         dbc.NavItem(dbc.NavLink("Dashboard", href="/dashboard")),
                         dbc.NavItem(dbc.NavLink("Demographics", href="/demographics")),
                         dbc.NavItem(dbc.NavLink("Upload Data", href="/upload")),
+                        dbc.NavItem(dbc.NavLink("Data Management", href="/data-management")),
                     ],
                     navbar=True,
                 ),
@@ -59,4 +60,4 @@ app.layout = html.Div(
 )
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8050)
+    app.run(debug=True, host="0.0.0.0", port=8050)

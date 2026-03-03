@@ -1,0 +1,240 @@
+{
+  "created_at": "2026-03-03T15:59:56",
+  "year": 2025,
+  "scope": "all",
+  "filenames": [
+    "RAW_2025_DEC.xlsx",
+    "RAW_2025_NOV.xlsx"
+  ],
+  "total_items": 13609,
+  "total_kg": 1996987.98,
+  "uncategorized_count": 897,
+  "uncategorized_kg": 164640.57,
+  "category_summary": {
+    "Poultry (chicken, turkey)": {
+      "items": 529,
+      "total_kg": 242777.49
+    },
+    "Uncategorized": {
+      "items": 897,
+      "total_kg": 164640.57
+    },
+    "Wheat/Rye (Bread, pasta, baked goods)": {
+      "items": 1601,
+      "total_kg": 125378.76
+    },
+    "Fruits (misc.)": {
+      "items": 584,
+      "total_kg": 90049.27
+    },
+    "Citrus Fruit": {
+      "items": 420,
+      "total_kg": 72305.62
+    },
+    "Vegetable oils": {
+      "items": 702,
+      "total_kg": 70804.94
+    },
+    "Beef & buffalo meat": {
+      "items": 356,
+      "total_kg": 70410.97
+    },
+    "Stimulants": {
+      "items": 502,
+      "total_kg": 68394.62
+    },
+    "Potatoes": {
+      "items": 234,
+      "total_kg": 66028.25
+    },
+    "Cheese": {
+      "items": 716,
+      "total_kg": 63269.19
+    },
+    "Eggs": {
+      "items": 146,
+      "total_kg": 62256.73
+    },
+    "Pork (pig meat)": {
+      "items": 375,
+      "total_kg": 59310.83
+    },
+    "Cabbages and other Brassicas (Broccoli)": {
+      "items": 358,
+      "total_kg": 52586.36
+    },
+    "Tomatoes": {
+      "items": 213,
+      "total_kg": 51912.83
+    },
+    "Bananas": {
+      "items": 105,
+      "total_kg": 51105.28
+    },
+    "Rapeseed/canola (Oil)": {
+      "items": 51,
+      "total_kg": 50574.22
+    },
+    "Rice": {
+      "items": 168,
+      "total_kg": 45604.22
+    },
+    "Milk (cow's milk)": {
+      "items": 144,
+      "total_kg": 40194.97
+    },
+    "Apples": {
+      "items": 127,
+      "total_kg": 38003.35
+    },
+    "Sugars and sweeteners": {
+      "items": 555,
+      "total_kg": 37543.88
+    },
+    "Beans and pulses (dried)": {
+      "items": 235,
+      "total_kg": 35660.95
+    },
+    "Legumes (misc.)": {
+      "items": 326,
+      "total_kg": 34867.69
+    },
+    "Yogurt": {
+      "items": 314,
+      "total_kg": 31968.06
+    },
+    "Stimulants & Spices (misc.)": {
+      "items": 744,
+      "total_kg": 30837.69
+    },
+    "Other vegetables": {
+      "items": 251,
+      "total_kg": 26783.92
+    },
+    "Ice cream": {
+      "items": 228,
+      "total_kg": 26618.34
+    },
+    "Berries": {
+      "items": 171,
+      "total_kg": 26551.34
+    },
+    "Soybeans/Tofu": {
+      "items": 144,
+      "total_kg": 23367.48
+    },
+    "Grains/cereals (except rice)": {
+      "items": 316,
+      "total_kg": 23196.39
+    },
+    "Onions and Leeks": {
+      "items": 168,
+      "total_kg": 22102.89
+    },
+    "Corn (Maize)": {
+      "items": 188,
+      "total_kg": 19010.82
+    },
+    "Cream": {
+      "items": 143,
+      "total_kg": 17851.22
+    },
+    "Vegetables (misc.)": {
+      "items": 227,
+      "total_kg": 16607.78
+    },
+    "Root Vegetables": {
+      "items": 140,
+      "total_kg": 15846.69
+    },
+    "Oat milk": {
+      "items": 48,
+      "total_kg": 15640.28
+    },
+    "Tree nuts and seeds": {
+      "items": 327,
+      "total_kg": 14848.28
+    },
+    "Lamb/mutton & goat meat": {
+      "items": 101,
+      "total_kg": 11999.8
+    },
+    "Fish (finfish)": {
+      "items": 141,
+      "total_kg": 10971.25
+    },
+    "Coffee": {
+      "items": 49,
+      "total_kg": 10327.01
+    },
+    "Crustaceans (shrimp/prawns)": {
+      "items": 80,
+      "total_kg": 8848.39
+    },
+    "Peas": {
+      "items": 103,
+      "total_kg": 7806.01
+    },
+    "Cassava and Other Roots": {
+      "items": 42,
+      "total_kg": 7366.34
+    },
+    "Oats (Oatmeal)": {
+      "items": 48,
+      "total_kg": 7267.24
+    },
+    "Almond milk": {
+      "items": 50,
+      "total_kg": 6139.4
+    },
+    "Butter": {
+      "items": 81,
+      "total_kg": 5713.11
+    },
+    "Olives (Oil)": {
+      "items": 54,
+      "total_kg": 5250.87
+    },
+    "Soy milk": {
+      "items": 24,
+      "total_kg": 4861.08
+    },
+    "Mollusks": {
+      "items": 40,
+      "total_kg": 3607.77
+    },
+    "Peanuts/groundnuts": {
+      "items": 6,
+      "total_kg": 849.39
+    },
+    "Roots and Tubers": {
+      "items": 22,
+      "total_kg": 827.24
+    },
+    "Animal fats": {
+      "items": 9,
+      "total_kg": 155.72
+    },
+    "Barley (Beer)": {
+      "items": 1,
+      "total_kg": 54.43
+    },
+    "Cocoa": {
+      "items": 5,
+      "total_kg": 30.75
+    }
+  },
+  "status": "committed",
+  "commit_id": "cmt_20260303_160001_a9639c",
+  "committed_at": "2026-03-03T16:00:01",
+  "emissions_summary": {
+    "total_kg_procured": 1832347.4094683835,
+    "metric2_supply_chain_tCO2e": 9435.764833866191,
+    "metric3_land_use_ha": 2479.2207670847974,
+    "metric4_carbon_opp_tCO2e": 34917.811899552034,
+    "total_carbon_tCO2e": 44353.576733418224,
+    "total_kcal_millions": 3870.3533203225866,
+    "per_1000kcal_kgCO2e": 11.459826290412535,
+    "per_kg_food_kgCO2e": 24.205877392151564
+  }
+}

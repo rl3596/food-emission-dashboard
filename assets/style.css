@@ -143,6 +143,75 @@ body {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
 
+/* Step indicator for multi-step workflows */
+.step-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    padding: 16px 0;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s;
+}
+
+.step.active {
+    background: #2e86c1;
+    color: white;
+}
+
+.step.inactive {
+    background: #e9ecef;
+    color: #adb5bd;
+}
+
+.step.completed {
+    background: #27ae60;
+    color: white;
+}
+
+.step-number {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.step.inactive .step-number {
+    background: #ced4da;
+    color: white;
+}
+
+.step-connector {
+    width: 40px;
+    height: 3px;
+    background: #dee2e6;
+}
+
+/* Preview card for staged uploads */
+.preview-card {
+    border: 2px solid #2e86c1;
+    border-radius: 12px;
+    background: #f0f7ff;
+}
+
+.preview-card .card-body {
+    padding: 24px;
+}
+
 /* Page container padding */
 .page-container {
     padding: 30px 0;
