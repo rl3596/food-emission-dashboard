@@ -16,7 +16,18 @@ from pipeline.staging import (
     delete_committed,
     delete_staging,
     commit_staging,
+    _infer_months_from_filenames,
 )
+
+MONTH_ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+              "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def _format_months(months: list[int] | None) -> str:
+    """Format month numbers as abbreviated names, e.g. [1, 2] -> 'Jan, Feb'."""
+    if not months:
+        return "Full Year"
+    return ", ".join(MONTH_ABBR[m - 1] for m in sorted(months) if 1 <= m <= 12)
 
 
 # ---------------------------------------------------------------------------
@@ -194,6 +205,9 @@ def _build_committed_section(records):
                 [
                     html.Td(rec.get("committed_at", "N/A")[:16]),
                     html.Td(str(rec.get("year", ""))),
+                    html.Td(_format_months(
+                        rec.get("months") or _infer_months_from_filenames(rec.get("filenames", []))
+                    )),
                     html.Td(", ".join(rec.get("filenames", []))),
                     html.Td(f"{rec.get('total_items', 0):,}"),
                     html.Td(f"{total_kg:,.0f}"),
@@ -219,6 +233,7 @@ def _build_committed_section(records):
                     [
                         html.Th("Date"),
                         html.Th("Year"),
+                        html.Th("Months"),
                         html.Th("Files"),
                         html.Th("Items"),
                         html.Th("Total kg"),

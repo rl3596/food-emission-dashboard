@@ -25,6 +25,15 @@ from pipeline.staging import save_to_staging, load_staging, delete_staging, comm
 from config import RAW_DIR, MONTHS
 
 
+def _parse_month_from_filename(filename: str) -> int | None:
+    """Extract month number from RAW_YYYY_MMM.xlsx-style filenames."""
+    fn_upper = filename.upper()
+    for i, m in enumerate(MONTHS):
+        if f"_{m}." in fn_upper or f"_{m}_" in fn_upper:
+            return i + 1
+    return None
+
+
 # ---------------------------------------------------------------------------
 # Layout
 # ---------------------------------------------------------------------------
@@ -80,7 +89,7 @@ def layout():
                                     dcc.Dropdown(
                                         id="upload-year",
                                         options=[{"label": str(y), "value": y} for y in range(2023, 2031)],
-                                        value=2025,
+                                        value=2026,
                                         clearable=False,
                                     ),
                                 ],
@@ -207,17 +216,19 @@ def layout():
     State("upload-data", "filename"),
     State("upload-year", "value"),
     State("upload-scope", "value"),
+    State("upload-months", "value"),
     prevent_initial_call=True,
 )
-def process_upload(contents_list, filenames, year, scope):
+def process_upload(contents_list, filenames, year, scope, selected_months):
     """Clean, categorize, and stage uploaded files for preview."""
     if contents_list is None:
         return no_update, no_update, no_update, no_update, no_update, "", ""
 
     all_dfs = []
     file_reports = []
+    detected_months = []
 
-    for contents, filename in zip(contents_list, filenames):
+    for idx, (contents, filename) in enumerate(zip(contents_list, filenames)):
         content_type, content_string = contents.split(",")
         decoded = base64.b64decode(content_string)
 
@@ -226,6 +237,18 @@ def process_upload(contents_list, filenames, year, scope):
         save_path = os.path.join(RAW_DIR, filename)
         with open(save_path, "wb") as f:
             f.write(decoded)
+
+        # Determine month for this file
+        file_month = _parse_month_from_filename(filename)
+        if file_month is None and selected_months:
+            # Use selected months if they match file count
+            if isinstance(selected_months, list) and idx < len(selected_months):
+                file_month = selected_months[idx]
+            elif isinstance(selected_months, int):
+                file_month = selected_months
+
+        if file_month:
+            detected_months.append(file_month)
 
         # Process the file
         try:
@@ -257,6 +280,10 @@ def process_upload(contents_list, filenames, year, scope):
             # Categorize
             df_select = add_category(df_select)
 
+            # Tag with month for per-month tracking
+            if file_month:
+                df_select["month"] = file_month
+
             all_dfs.append(df_select)
             file_reports.append({"filename": filename, "rows": len(df_select), "status": "success"})
         except Exception as e:
@@ -269,9 +296,10 @@ def process_upload(contents_list, filenames, year, scope):
         )
         return no_update, no_update, no_update, no_update, None, error_msg, ""
 
-    # Combine and save to staging
+    # Combine and save to staging (with month info)
     combined = pd.concat(all_dfs, ignore_index=True)
-    metadata = save_to_staging(combined, year, scope, filenames)
+    months_list = sorted(set(detected_months)) if detected_months else None
+    metadata = save_to_staging(combined, year, scope, filenames, months=months_list)
 
     # Build preview
     cat_summary = (
@@ -310,7 +338,10 @@ def process_upload(contents_list, filenames, year, scope):
                                 dbc.Col(
                                     [
                                         html.Div(str(year), className="kpi-value", style={"fontSize": "1.5rem"}),
-                                        html.Div("Year", className="kpi-label"),
+                                        html.Div(
+                                            f"Year — {', '.join(MONTHS[m-1] for m in months_list)}" if months_list else "Year",
+                                            className="kpi-label",
+                                        ),
                                     ],
                                     className="text-center",
                                 ),
